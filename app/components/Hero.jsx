@@ -98,7 +98,7 @@ const Hero = () => {
             </svg>
           </div>
         </motion.div>
-        <div className="absolute -bottom-[20%] z-20 left-1/2 transform -translate-x-1/2 ">
+        <div className="absolute -bottom-[22%] z-20 left-1/2 transform -translate-x-1/2 ">
           {/* first line */}
           <div className="flex gap-3">
             <div className="bg-secondary hero-text">

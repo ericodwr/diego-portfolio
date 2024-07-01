@@ -24,7 +24,7 @@ export default function Home() {
       </section>
       {/* Contact Page */}
       {/* Footer Page */}
-      <section className='mt-12'>
+      <section className="mt-12">
         <Footer />
       </section>
       {/* Footer Page */}
