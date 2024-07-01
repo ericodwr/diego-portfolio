@@ -51,7 +51,7 @@ const Hero = () => {
             <Image
               height={50}
               width={50}
-              className="w-[40vw] h-full"
+              className="w-[654px] h-[250px]"
               src={'/hero/profile.svg'}
               alt="profile"
               priority
