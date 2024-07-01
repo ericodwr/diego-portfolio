@@ -42,7 +42,7 @@ const Hero = () => {
     <>
       <div className="relative flex justify-center">
         <motion.div
-          className="bg-[#24272B1A] rounded-3xl p-14 group"
+          className="bg-[#24272B1A] rounded-3xl p-12 group"
           whileHover={{
             y: '-15px',
           }}
@@ -51,7 +51,7 @@ const Hero = () => {
             <Image
               height={50}
               width={50}
-              className="w-[654px] h-[250px]"
+              className="w-[558px] h-[225px]"
               src={'/hero/profile.svg'}
               alt="profile"
               priority
@@ -61,12 +61,12 @@ const Hero = () => {
             <Image
               height={50}
               width={50}
-              className="w-[40vw] h-full"
+              className="w-[558px] h-full mt-3"
               src={'/hero/minutes.svg'}
               alt="minutes"
             />
           </div>
-          <div className="flex justify-center items-center gap-7 mt-12">
+          <div className="flex justify-center items-center gap-7 mt-10">
             {/* Prev */}
             <svg
               className="fill-[#BFC1C4] transition-all w-[3vw] h-full "
@@ -98,7 +98,7 @@ const Hero = () => {
             </svg>
           </div>
         </motion.div>
-        <div className="absolute -bottom-[22%] z-20 left-1/2 transform -translate-x-1/2 ">
+        <div className="absolute -bottom-[25%] z-20 left-1/2 transform -translate-x-1/2 ">
           {/* first line */}
           <div className="flex gap-3">
             <div className="bg-secondary hero-text">
