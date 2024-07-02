@@ -34,7 +34,7 @@ body {
 
 @layer components {
   .hero-text {
-    @apply h-[11vh] flex items-center text-4xl  font-bold px-[2vw] backdrop-blur-sm rounded-2xl;
+    @apply h-[86px] flex items-center text-4xl  font-bold px-[2vw] backdrop-blur-sm rounded-2xl;
   }
 
   .contact-text {

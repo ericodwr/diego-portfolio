@@ -3,8 +3,9 @@
 import Image from 'next/image';
 import React from 'react';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
-const CardProject = ({ imgUrl, title, jobType, year }) => {
+const CardProject = ({ imgUrl, title, jobType, year, link }) => {
   return (
     <div className="flex flex-col gap-3">
       <motion.div
@@ -14,13 +15,15 @@ const CardProject = ({ imgUrl, title, jobType, year }) => {
         }}
         transition={{ duration: 1 }}
       >
-        <Image
-          height={500}
-          width={500}
-          className="w-[50vw] h-full"
-          alt="astra"
-          src={`/project/${imgUrl}`}
-        />
+        <Link href={link} target="_blank">
+          <Image
+            height={500}
+            width={500}
+            className="w-[50vw] h-full"
+            alt="astra"
+            src={`/project/${imgUrl}`}
+          />
+        </Link>
       </motion.div>
       <div>
         <h2 className="text-4xl">{title}</h2>

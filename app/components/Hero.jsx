@@ -42,9 +42,9 @@ const Hero = () => {
     <>
       <div className="relative flex justify-center">
         <motion.div
-          className="bg-[#24272B1A] rounded-3xl p-12 group"
+          className="bg-[#24272B1A] rounded-3xl p-[48px] group"
           whileHover={{
-            y: '-15px',
+            y: '-20px',
           }}
         >
           <div>
@@ -61,7 +61,7 @@ const Hero = () => {
             <Image
               height={50}
               width={50}
-              className="w-[558px] h-full mt-3"
+              className="w-[558px]  mt-3"
               src={'/hero/minutes.svg'}
               alt="minutes"
             />
@@ -69,7 +69,7 @@ const Hero = () => {
           <div className="flex justify-center items-center gap-7 mt-10">
             {/* Prev */}
             <svg
-              className="fill-[#BFC1C4] transition-all w-[3vw] h-full "
+              className="fill-[#BFC1C4] transition-all w-[55px]"
               viewBox="0 0 61 62"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +82,7 @@ const Hero = () => {
               viewBox="0 0 65 65"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="fill-[#BFC1C4] group-hover:fill-black transition-all w-[3vw] h-full"
+              className="fill-[#BFC1C4] group-hover:fill-black transition-all w-[55px]"
             >
               <path d="M17.4015 13.3456C17.4015 11.8729 18.5954 10.679 20.0682 10.679H26.7348C28.2076 10.679 29.4015 11.8729 29.4015 13.3456V50.679C29.4015 52.1517 28.2076 53.3456 26.7348 53.3456H20.0682C18.5954 53.3456 17.4015 52.1517 17.4015 50.679V13.3456Z" />
               <path d="M34.7348 13.3456C34.7348 11.8729 35.9287 10.679 37.4015 10.679H44.0682C45.5409 10.679 46.7348 11.8729 46.7348 13.3456V50.679C46.7348 52.1517 45.5409 53.3456 44.0682 53.3456H37.4015C35.9287 53.3456 34.7348 52.1517 34.7348 50.679V13.3456Z" />
@@ -91,14 +91,14 @@ const Hero = () => {
               viewBox="0 0 65 65"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="fill-[#BFC1C4] group-hover:fill-black transition-all w-[3vw] h-full"
+              className="fill-[#BFC1C4] group-hover:fill-black transition-all w-[55px]"
             >
               <path d="M60.172 34.3218C61.9498 33.2954 61.9498 30.7294 60.172 29.703L36.172 15.8466C34.3943 14.8202 32.172 16.1032 32.172 18.156L32.172 45.8688C32.172 47.9216 34.3943 49.2046 36.172 48.1782L60.172 34.3218Z" />
               <path d="M30.8387 34.3218C32.6165 33.2954 32.6165 30.7294 30.8387 29.703L6.8387 15.8466C5.06092 14.8202 2.8387 16.1032 2.8387 18.156V45.8688C2.8387 47.9216 5.06092 49.2046 6.8387 48.1782L30.8387 34.3218Z" />
             </svg>
           </div>
         </motion.div>
-        <div className="absolute -bottom-[25%] z-20 left-1/2 transform -translate-x-1/2 ">
+        <div className="absolute -bottom-[120px] z-20 left-1/2 transform -translate-x-1/2 ">
           {/* first line */}
           <div className="flex gap-3">
             <div className="bg-secondary hero-text">

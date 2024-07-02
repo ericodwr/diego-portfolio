@@ -9,19 +9,19 @@ const Navbar = () => {
   const socialMedia = [
     {
       name: 'Behance',
-      url: '',
+      url: 'https://www.behance.net/diegoirfansyah',
     },
     {
       name: 'Dribble',
-      url: '',
+      url: 'https://dribbble.com/digo13',
     },
     {
       name: 'LinkedIn',
-      url: '',
+      url: 'https://www.linkedin.com/in/diego-irfansyah/',
     },
     {
       name: 'Instagram',
-      url: '',
+      url: 'https://www.instagram.com/diegoirfnsyh',
     },
   ];
 
