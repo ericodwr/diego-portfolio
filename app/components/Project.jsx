@@ -41,8 +41,8 @@ const Project = () => {
   ];
 
   return (
-    <div className="flex justify-center flex-col items-center">
-      <h2 className="text-3xl">Recent Work</h2>
+    <div className="flex justify-center flex-col items-center pt-5">
+      <h2 className="text-3xl mb-9 flex items-start w-[50vw]">Recent Work</h2>
       <div className="mt-4 flex flex-col gap-12">
         {projectList.map((project, i) => {
           const { imgUrl, jobType, title, year, link } = project;

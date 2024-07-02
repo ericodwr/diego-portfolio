@@ -13,7 +13,7 @@ export default function Home() {
       </section>
       {/* Landing Page */}
       {/* Project Page */}
-      <section className="mt-12">
+      <section className="mt-12" id="project">
         <Project />
       </section>
       {/* Project Page */}
