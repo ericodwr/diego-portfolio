@@ -32,7 +32,7 @@ const Hero = () => {
           return prev + 1;
         }
       });
-    }, 2000);
+    }, 4000);
 
     return () => {
       clearInterval(interval);
@@ -129,14 +129,15 @@ const Hero = () => {
       </div>
 
       {/* Footer Hero */}
-      <div className="absolute -bottom-24 w-full grid grid-flow-row-dense grid-cols-4 grid-rows-4 px-[3vw]">
+      <div className="absolute -bottom-24 w-full grid items-center grid-cols-4 grid-rows-4 px-[3vw]">
         <div className="col-span-1 flex">
           <AnimatePresence initial={false} custom={1}>
-            <motion.div className="bg-primary rounded-2xl p-[1vh] text-white flex items-center">
+            <motion.div className="text-white flex items-center bg-primary rounded-2xl p-[1vh]">
               <motion.p
                 key={greeting}
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
+                transition={{ duration: 1 }}
               >
                 {greetings[greeting]}
               </motion.p>

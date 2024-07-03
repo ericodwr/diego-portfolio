@@ -17,7 +17,7 @@ const Contact = () => {
           return prev + 1;
         }
       });
-    }, 4000);
+    }, 2000);
 
     return () => {
       return clearInterval(interval);
@@ -42,10 +42,11 @@ const Contact = () => {
         </div>
         {/* second line */}
         <div className="flex gap-3 justify-center mt-6">
-          <div className="bg-secondary  contact-text">
+          <motion.div className="bg-secondary contact-text">
             <AnimatePresence initial={false} custom={1}>
               <motion.h1
                 key={index}
+                className="min-w-[100px]"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 2 }}
@@ -53,7 +54,7 @@ const Contact = () => {
                 {text[index]}
               </motion.h1>
             </AnimatePresence>
-          </div>
+          </motion.div>
           <div className="bg-[#0B0C0E1A] contact-text">
             <h1>Together</h1>
           </div>
