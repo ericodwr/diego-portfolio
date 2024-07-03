@@ -11,7 +11,7 @@ const Footer = () => {
       url: '',
     },
     {
-      name: 'Dribble',
+      name: 'Dribbble',
       url: '',
     },
     {

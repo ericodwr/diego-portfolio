@@ -12,7 +12,7 @@ const Navbar = () => {
       url: 'https://www.behance.net/diegoirfansyah',
     },
     {
-      name: 'Dribble',
+      name: 'Dribbble',
       url: 'https://dribbble.com/digo13',
     },
     {
