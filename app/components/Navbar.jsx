@@ -13,7 +13,7 @@ const Navbar = () => {
     },
     {
       name: 'Dribbble',
-      url: 'https://dribbble.com/digo13',
+      url: 'https://dribbble.com/diegoirfansyah',
     },
     {
       name: 'LinkedIn',

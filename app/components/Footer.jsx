@@ -8,19 +8,19 @@ const Footer = () => {
   const socialMedia = [
     {
       name: 'Behance',
-      url: '',
+      url: 'https://www.behance.net/diegoirfansyah',
     },
     {
       name: 'Dribbble',
-      url: '',
+      url: 'https://dribbble.com/diegoirfansyah',
     },
     {
       name: 'LinkedIn',
-      url: '',
+      url: 'https://www.linkedin.com/in/diego-irfansyah/',
     },
     {
       name: 'Instagram',
-      url: '',
+      url: 'https://www.instagram.com/diegoirfnsyh',
     },
   ];
 
