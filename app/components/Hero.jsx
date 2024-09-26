@@ -188,7 +188,7 @@ const Hero = () => {
           </Link>
         </div>
         <div className="col-span-1 flex flex-row-reverse">
-          <p>3 Years of Experience in UI/UX Design</p>
+          <p>2 Years of Experience in UI/UX Design</p>
         </div>
       </div>
     </>
